@@ -1,5 +1,5 @@
 const jsreport = require('jsreport')({
-	httpPort: 3000
+	httpPort: process.env.PORT || 3000
 })
 
 if (process.env.JSREPORT_CLI) {
