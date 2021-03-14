@@ -21,6 +21,11 @@
     },
     "fs-store": {
       "syncModifications": false
+    },
+	"chrome-pdf": {  
+      "launchOptions": {
+        "args": ["--no-sandbox"] 
+      }
     }
   }
 }
