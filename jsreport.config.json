@@ -24,7 +24,7 @@
     },
 	"chrome-pdf": {  
       "launchOptions": {
-        "args": ["--no-sandbox"] 
+        "args": ["--no-sandbox", "--disable-setuid-sandbox"] 
       }
     }
   }
